@@ -1,0 +1,48 @@
+{
+    "type": "run",
+    "children": [
+        {
+            "type": "while(bool_no_path_ahead)",
+            "children": [
+                {
+                    "type": "if(bool_marker)",
+                    "children": [
+                        {
+                            "type": "do",
+                            "children": [
+                                {
+                                    "type": "pick_marker"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "turn_left"
+                },
+                {
+                    "type": "move"
+                },
+                {
+                    "type": "turn_right"
+                },
+                {
+                    "type": "move"
+                }
+            ]
+        },
+       {
+            "type": "if(bool_marker)",
+            "children": [
+                {
+                    "type": "do",
+                    "children": [
+                        {
+                            "type": "pick_marker"
+                        }
+                    ]
+                }
+            ]
+       }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "run",
+    "children": [
+        {
+            "type": "repeat(4)",
+            "children": [
+                {
+                    "type": "move"
+                }
+            ]
+        },
+        {
+            "type": "turn_left"
+        },
+        {
+            "type": "repeat(5)",
+            "children": [
+                {
+                    "type": "move"
+                }
+            ]
+        }
+    ]
+}
